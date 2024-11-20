@@ -3,6 +3,11 @@
 # exit on error
 set -e
 
+# get the source code
+git clone --branch releasebranch_8_4 --depth 1 https://github.com/OSGeo/grass.git
+
+cd grass
+
 # compile
 ./configure \
     --with-bzlib \
@@ -22,7 +27,7 @@ make
 # ensure the user specific bin dir exists (already on path)
 mkdir -p $HOME/.local/bin/
 # create link to build
-ln -s $HOME/bin.*/grass* $HOME/.local/bin/grass
+ln -s $HOME/grass/bin.*/grass* $HOME/.local/bin/grass
 
 # download a sample dataset
 mkdir -p data/grassdata \
