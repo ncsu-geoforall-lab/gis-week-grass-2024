@@ -1,60 +1,34 @@
-<!-- Links -->
+# Introduction to GRASS GIS for terrain analysis
+_Pratikshya Regmi and Caitlin Haedrich_
 
-[jhub]: https://csdms.colorado.edu/wiki/JupyterHub
-[badge]: https://img.shields.io/badge/Run%20on-EarthscapeHub-orange
-[jhub-link]: https://lab.openearthscape.org/hub/user-redirect/
-[jhub-info]: https://csdms.colorado.edu/wiki/JupyterHub
-
-
-
-# Coastal evolution analysis and inundation modeling with GRASS GIS (CSDMS Workshop 2024)
-
-This is a set of Jupyter Notebooks for a workshop at CSDMS's 2024 Annual Meeting.
+This is a set of Jupyter Notebooks for a workshop at NC State GIS Week 2024.
 
 ## How to run these notebooks
 
-The notebooks can be run locally
-if users installs GRASS GIS along with Jupyter Lab, folium, and a `git` client on their computer.
-All notebooks are also available to run
-on [EarthscapeHub][jhub].
-Click this button:
+We will run these notebooks online using Binder. Click the button below to launch.
 
-[![Run on EarthscapeHub][badge]][jhub-link]
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ncsu-geoforall-lab/gis-week-grass-2024main?labpath=01_Getting_Started.ipynb)
 
-to open the lessons directly on the EarthscapeHub *lab* instance!
+The notebooks can also be run locally with installation:
 
-> **Note:** The EarthscapeHub *lab* instance is password-protected.
-  Please contact your instructor about obtaining a login,
-  or visit [this][jhub-info] CSDMS wiki page for more information.
+- [Installation instructions for Windows](https://github.com/ncsu-geoforall-lab/GIS714-assignments/blob/main/GRASS_GIS_Foundations/JupyterOnWindows_OSGeo4W_Tutorial.ipynb)
 
-
-Once you are in [EarthscapeHub][jhub-link], open a terminal and clone this repository using:
-
-```
-git clone https://github.com/ncsu-geoforall-lab/csdms-grass-2024.git
-```
+- [Installation instructions for Mac](https://github.com/ncsu-geoforall-lab/GIS714-assignments/blob/main/GRASS_GIS_Foundations/JupyterOnMac_Tutorial.ipynb)
 
 
 ## Workshop Agenda
 
-**Part 1 (10 min): _Quick Introductions_**
+**Part 1 (10 min): _Quick Introduction_**
 - What is GRASS and why use it
 
-**Part 2 (50 min): _Getting Started with GRASS and LiDAR data_**
+**Part 2 (50 min): _Getting Started with GRASS GIS_**
 
 - [Notebook 1: Getting Started](./01_Getting_Started.ipynb)
 
-- [Notebook 2: DEM Creation and Visualization](./02_Create_and_Visualize_DEMs.ipynb)
+- [Notebook 2: Working in Jupyter](./02_jupyter_tutorial.ipynb)
 
-**Break (10 min)**
+- Notebook 3: Group Choice, Parallization or Viewsheds
 
-**Part 3 (50 min): _Deriving Shorelines, Dune Migration and Simple Inundation Modeling_**
-
-- [Notebook 3: Deriving Shorelines](./03_Shoreline_Derivation.ipynb)
-
-- [Notebook 4: Dune Migration](./04_Dune_Migration.ipynb)
-
-- [Notebook 5: Simple Inundation Modeling](./05_Inundation.ipynb)
 
 
 ## Authors
