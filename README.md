@@ -7,7 +7,7 @@ This is a set of Jupyter Notebooks for a workshop at NC State GIS Week 2024.
 
 We will run these notebooks online using Binder. Click the button below to launch.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ncsu-geoforall-lab/gis-week-grass-2024main?labpath=01_Getting_Started.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ncsu-geoforall-lab/gis-week-grass-2024/main?labpath=01_Getting_Started.ipynb)
 
 The notebooks can also be run locally with installation:
 
